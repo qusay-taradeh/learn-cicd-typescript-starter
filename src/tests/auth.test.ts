@@ -33,13 +33,13 @@ describe("headers", () => {
   });
 
   test("ApiKey header missed", () => {
-    const result = getAPIKey(headers_invalid1);
+    const result = getAPIKey(headers_invalid2);
 
     expect(result).toBeNull();
   });
 
   test("Authorization is undefined", () => {
-    const result = getAPIKey(headers_invalid1);
+    const result = getAPIKey(headers_invalid3);
 
     expect(result).toBeNull();
   });
