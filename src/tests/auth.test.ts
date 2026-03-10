@@ -46,9 +46,9 @@ describe("headers", () => {
     });
 
     // This test to ensure that CI fails when our tests don't pass
-    test("Breake Code Test (Fail Test)", () => {
-        const result = getAPIKey(headers_invalid1);
+    // test("Breake Code Test (Fail Test)", () => {
+    //     const result = getAPIKey(headers_invalid1);
 
-        expect(result).toBeTypeOf("string");
-    });
+    //     expect(result).toBeTypeOf("string");
+    // });
 });
